@@ -1,0 +1,28 @@
+Brief Guide to Virtual Environments in Conda
+
+Create a new virtual environment with the name advanced running on Python 3.9:
+conda create --name advanced python=3.9
+
+Activate the virtual environment advanced:
+conda activate advanced
+
+Install some packages using pip:
+pip install torch
+pip install torchvision
+pip install matplotlib
+pip install jupyter notebook
+
+Deactivate the virtual environment:
+conda deactivate
+
+List packages within a virtual environment:
+conda list
+
+List all the virtual environments that you have created:
+conda env list
+
+Remove a virtual environment with the name advanced (Please refrain from doing so until the end of this workshop series):
+conda remove --name advanced --all
+
+For a more in depth guide, please check out:
+https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
